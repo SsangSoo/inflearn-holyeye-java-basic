@@ -19,12 +19,12 @@ public class ProductOrderMain {
 
         ProductOrder[] productOrders = {dubu, kimchi, cola};
 
-        int totalPrice = 0;
+        int totalAmount = 0;
         for(ProductOrder po : productOrders) {
             System.out.println("상품명: " + po.productName + ", 가격: " + po.price + ", 수량: " + po.quantity);
-            totalPrice += po.price * po.quantity;
+            totalAmount += po.price * po.quantity;
         }
-        System.out.println("총 결제 금액: " + totalPrice);
+        System.out.println("총 결제 금액: " + totalAmount);
 
 
     }
