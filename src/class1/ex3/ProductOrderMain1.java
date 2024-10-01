@@ -1,6 +1,6 @@
 package class1.ex3;
 
-public class ProductOrderMain {
+public class ProductOrderMain1 {
     public static void main(String[] args) {
         ProductOrder dubu = new ProductOrder();
         dubu.productName = "두부";
