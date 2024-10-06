@@ -27,7 +27,6 @@ public class ProductOrderMain3 {
             orders[i] = createOrder(productName, price, quantity);
         }
 
-
         printOrders(orders);
         int totalAmount = getTotalAmount(orders);
         System.out.println("총 결제 금액: " + totalAmount);
