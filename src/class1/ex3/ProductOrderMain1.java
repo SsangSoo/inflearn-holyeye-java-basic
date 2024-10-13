@@ -1,5 +1,7 @@
 package class1.ex3;
 
+import class1.Student;
+
 public class ProductOrderMain1 {
     public static void main(String[] args) {
         ProductOrder dubu = new ProductOrder();
@@ -25,6 +27,8 @@ public class ProductOrderMain1 {
             totalAmount += po.price * po.quantity;
         }
         System.out.println("총 결제 금액: " + totalAmount);
+
+        Student student = new Student();
 
 
     }
